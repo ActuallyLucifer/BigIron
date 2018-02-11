@@ -1,0 +1,47 @@
+capital = 376
+
+oob = "LEG_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 0
+	tech_recon = 0
+	tech_engineers = 0
+	tech_support = 0		
+	tech_mountaineers = 0
+	early_fighter = 0
+}
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 90
+		}
+
+	}
+	
+	ruling_party = fascism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_national_unity = 0.50
+
+create_country_leader = {
+	name = "Edward Sallow"
+	desc = "POLITICS_EDWARD_SALLOW_DESC"
+	picture = "edward_sallow.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+
+	}
+}

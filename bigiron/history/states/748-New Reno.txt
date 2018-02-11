@@ -1,0 +1,23 @@
+state={
+	id=748
+	name="STATE_748"
+			
+			
+	history={
+		owner = NCR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NCR
+	
+
+	
+	}
+	
+	provinces={
+		6694 6699 6876 9713 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,23 @@
+state={
+	id=378
+	name="STATE_378"
+			
+			
+	history={
+		owner = NCR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NCR
+	
+
+	
+	}
+	
+	provinces={
+		3677 3678 9671 610 677 710 766 768 781 1432 1601 3588 3644 4331 6482 6665 6681 6745 6757 6772 7667 9697 9730 10159 11698 11658
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

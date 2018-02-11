@@ -1,0 +1,53 @@
+capital = 378
+
+oob = "NCR_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 0
+	tech_recon = 0
+	tech_engineers = 0
+	tech_support = 0		
+	tech_mountaineers = 0
+	early_fighter = 0
+}
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 30
+		}
+
+		fascism = {
+			popularity = 10
+		}
+
+		democratic = {
+			popularity = 55
+		
+		communism = {
+			popularity = 15
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_national_unity = 0.50
+
+create_country_leader = {
+	name = "President Aaron Kimball"
+	desc = "POLITICS_AARON_KIMBALL_DESC"
+	picture = "aaron_kimball.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}
